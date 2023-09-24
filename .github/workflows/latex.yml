@@ -1,0 +1,33 @@
+name: Compile LaTeX documents
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up TeX Live
+        uses: dante-ev/setup-texlive@v3
+        with:
+          scheme: basic
+
+       
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX document
+        run: |
+          latexmk -pdf -interaction=nonstopmode -synctex=1 -file-line-error index.tex  
+
+
+      - name: Upload PDF 
+        uses: action/upload-artifact@v2
+        with:
+          name: pdf
+          path: Progetto.pdf
+
+      
