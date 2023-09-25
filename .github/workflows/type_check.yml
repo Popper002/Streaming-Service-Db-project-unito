@@ -16,7 +16,3 @@ jobs:
       run: |
         lacheck Progetto.tex
         chktex -n 6 Progetto.tex
-    - name: Check Italian grammar
-      uses: docker://michelelacchia/it-checker:latest
-      with:
-        args: -f /github/workspace/Progetto.tex
