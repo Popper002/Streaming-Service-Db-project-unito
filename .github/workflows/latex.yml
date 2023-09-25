@@ -17,3 +17,8 @@ jobs:
     - name: Build LaTeX document
       run: |
         pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -synctex=1 src/Progetto.tex
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Progetto.pdf
+        path: src/Progetto.pdf
