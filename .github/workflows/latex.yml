@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Set up TeX Live
-        uses: dante-ev/setup-texlive@v3
+        uses: DanySK/setup-texlive-action@0.1.1
         with:
           scheme: basic
 
