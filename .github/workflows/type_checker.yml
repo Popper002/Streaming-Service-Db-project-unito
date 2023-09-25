@@ -1,0 +1,33 @@
+name: LaTeX type checking
+
+on:
+  push:
+    branches:
+      - main
+    pull_request:
+      branches:
+        - main
+
+jobs:
+  type_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code 
+        uses: action/checkout@v2
+
+      - name: Set up TeX live
+        uses: dante-ev/setup-texlive@v3
+
+      - name: Type check LaTeX files
+        run: cd src/ && lacheck index.tex
+
+      - name: Set up TeX live
+        uses: dante-ev/setup-texlive@v3
+        with: 
+          scheme: basic
+
+      - name: Type check LaTeX files
+      run: | 
+        cd src/
+        lacheck index.tex

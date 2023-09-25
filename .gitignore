@@ -1,0 +1,7 @@
+# file created by LaTeX at compile time, not useful to track 
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
