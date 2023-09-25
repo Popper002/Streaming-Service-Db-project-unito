@@ -1,0 +1,22 @@
+name: LaTeX Check
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up LaTeX
+      uses: docker://danteev/texlive:latest
+    - name: Check LaTeX structure
+      run: |
+        lacheck Progetto.tex
+        chktex -n 6 Progetto.tex
+    - name: Check Italian grammar
+      uses: docker://languagetool/standalone:latest
+      with:
+        args: -l it-IT -c utf-8 -d ${{ github.workspace }}/Progetto.tex
