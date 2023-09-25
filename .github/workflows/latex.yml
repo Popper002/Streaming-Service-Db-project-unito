@@ -21,7 +21,7 @@ jobs:
 
       - name: Compile LaTeX document
         run: |
-          latexmk -pdf -interaction=nonstopmode -synctex=1 -file-line-error index.tex  
+          latexmk -pdf -interaction=nonstopmode -synctex=1 -file-line-error src/Progetto.tex  
 
 
       - name: Upload PDF 
