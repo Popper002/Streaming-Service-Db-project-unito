@@ -12,7 +12,9 @@ jobs:
     - uses: actions/checkout@v2
     - name: Set up LaTeX
       uses: docker://danteev/texlive:latest
+    - name: Install lacheck
+      run: sudo apt-get update && sudo apt-get install -y lacheck
     - name: Check LaTeX structure
       run: |
-        lacheck Progetto.tex
-        chktex -n 6 Progetto.tex
+        lacheck src/Progetto.tex
+        chktex -n 6 src/Progetto.tex
