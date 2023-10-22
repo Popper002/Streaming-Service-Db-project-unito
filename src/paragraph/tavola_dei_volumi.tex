@@ -43,20 +43,18 @@
 \begin{enumerate}
     \item \textbf{Registrazione}: 
     \item \textbf{Visualizzazione Chat}:
-    \item \textbf{Visualizzazione Clip}: 
     \item \textbf{Visualizzazione Live}: 
+    \item \textbf{Visualizzazione Video}:
+    \item \textbf{Visualizzazione Clip}: 
     \item \textbf{Visualizzazione Chat}: 
     \item \textbf{Visualizzazione Descrizione}:
     \item \textbf{Donazione}:
     \item \textbf{Visualizzazione Canale}
-    \item \textbf{Visualizzazione Streamer}: un utente può visualizzare uno streamer.
-    \item \textbf{Visualizzazione Video}: un utente può visualizzare un video.
-    \item \textbf{Calcolo Numero Spettatori Medi}: la piattaforma calcola il numero di spettatori medi 
-    \item \textbf{Calcolo Donazioni Ricevute}: la piattaforma calcola il numero che uno streamer ha ricevuto in donazioni 
-    \item \textbf{Calcolo Numero di live effettuate}: la piattaforma calcola il numero di live effettuate da uno streamer 
-    \item \textbf{Calcolo Numero di video effettuate}: la piattaforma calcola il numero di video effettuate da uno streamer 
-    \item \textbf{Calcolo Numero di clip effettuate}: la piattaforma calcola il numero di clip effettuate da uno streamer 
-    \item \textbf{Calcolo Numero di iscritti nuovi al canale}: la piattaforma calcola il numero di clip effettuate da uno streamer 
+    \item \textbf{Calcolo Numero Spettatori Medi}:
+    \item \textbf{Calcolo Donazioni Ricevute}: 
+    \item \textbf{Calcolo Numero di live effettuate} 
+    \item \textbf{Calcolo Numero di video effettuate} 
+    \item \textbf{Calcolo Numero di clip effettuate} 
 \end{enumerate}
 %TODO: partere non in grassetto da spostare in altra tabella %
 \subsection{Tavola delle operazioni}
@@ -79,7 +77,11 @@
   Visualizzazione Live & I & 30.000/giorno & un utente può visualizzare una live  \\\hline
   Visualizzazione Video & I & 30.000/giorno & un utente può visualizzare un video  \\\hline
   Visualizzazoine Chat & I & 1.000.000/giorno & un utente può visualizzare la chat  \\\hline
-  Calcolo Numero Spettatori Medi & B & 1/giorno  & la piattaforma calcola il numero di spettatori medi  \\\hline
+  Donazione & I & 10.000/giorno & un utente può donare ad uno streamer  \\\hline
+  Calcolo Numero Spettatori Medi & I & 1/giorno  & la piattaforma calcola il numero di spettatori medi  \\\hline
+  Calcolo Numero di Live effettuate & I & 1/giorno  & la piattaforma calcola il numero di live effettuate da uno streamer  \\\hline
+  Calcolo Numero di Clip effettuate & I & 1/giorno  & la piattaforma calcola il video di live effettuate da uno streamer  \\\hline
+  Calcolo Numero di Video effettuate & I & 1/giorno  & la piattaforma calcola il clip di live effettuate da uno streamer  \\\hline
   Controllo condizioni affiliate & B &  & la piattaforma controlla se uno streamer rispetta le condizioni per diventare affiliate  \\\hline
   Controllo classifica streamer più seguiti & B & 1/settimana  & la piattaforma controlla se uno streamer rispetta le condizioni per diventare affiliate  \\\hline
 
