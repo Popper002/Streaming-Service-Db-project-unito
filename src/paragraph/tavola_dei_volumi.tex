@@ -17,24 +17,24 @@
   Utenti Registrato & E & 950.000 & Si ipotizza che la maggior parte degli utenti sia registrata \\\hline
   Utenti Anonimi & E & 50.000 & Una minima parte degli spettatori non è Registrato \\\hline
   Streamer-Spetttore & E & 100.000 & Si ipotizza che 100.000 spettatori siano anche streamer \\\hline
-  Streamer & E & 10.0000 & \\\hline
+  Streamer & E & 10.0000 & Utenti che decidono di svolgere attivita streaming sulla piattaforma\\\hline
   Descrizione & E & 10.000 & Il numero di descrizioni è pari al numero di descrizioni \\\hline
-  Canali & E & 10.000 & \\\hline
-  Video & E & 100000 & \\\hline
-  Live & E & 1.000.000 & \\\hline
-  Clip & E & 100000 & \\\hline
-  Portafoglio & E & 1000000 & \\\hline
+  Canali & E & 10.000 & Utenti registrati alla piattaforma e che hanno un canale attivo\\\hline
+  Video & E & 100.000 & Contenuto video caricato sul canale dello streamer\\\hline
+  Live & E & 1.000.000 &Contenuto video live in onda sul canale in tempo reale o live passata\\\hline
+  Clip & E & 100.000 & Estratto di breve durata del contenuto in live\\\hline
+  Portafoglio & E & 1000000 & Quantitivo di moneta virtuale "bit" acquistabile sulla piattaforma\\\hline
   Iscrizione & E & 750.000 & Supponiamo che 750.000 spettatori si iscrivano almeno a un canale \\\hline
-  Chat & E & 1000.000.000 &Supponiamo che vengano mandati 1.000.000.000 di messaggi tra privati e pubblici \\\hline
-  Conversare & R & & \\\hline
-  Contenuto & R & N & Il numero di contenuti è pari alla somma dei volumi di live video e clip  \\\hline %TODO pensare a un numero %
-  Visita & R & N & Il numero di visite è pari alla somma dei volumi di live video e clip \\\hline %TODO pensare a un numero %
-  P-S & R & N & \\\hline
-  S-R & R & N & \\\hline
-  Non iscritto & R & N & \\\hline
-  Possiede & R & N & \\\hline
-  Contiente & R & N & \\\hline
-  Supporto & R & N & \\\hline
+  Chat & E & 1.000.000.000 &Supponiamo che vengano mandati 1.000.000.000 di messaggi tra privati e pubblici \\\hline
+  Conversare & R &1.000.000.000 & Quantitivo di messaggi scambiati su chat pubbliche o private tra utenti\\\hline
+  Contenuto & R & 1.200.000 & Il numero di contenuti è pari alla somma dei volumi di live video e clip  \\\hline %TODO pensare a un numero %
+  Visita & R & 1.200.000& Il numero di visite è pari alla somma dei volumi di live video e clip \\\hline %TODO pensare a un numero %
+  P-S & R &1.000.000 & Relazione tra Portafoglio e streamer \\\hline 
+  S-R & R & 1.000.000 & Relazione utente Spettatore non registrato si registra alla piattaforma\\\hline
+  Non iscritto & R & 1.000.000.000 & Utenti non registrati sulla piattaforma\\\hline
+  Possiede & R & 10.000 &Quantitivo di canali complessivi presenti sulla piattaforma \\\hline
+  Contiente & R & 1.200.000&Quantitivo di contenuti video presenti sulla piattaforma \\\hline
+  Supporto & R & 1.300.000 &Quantitivo di supporto monetario ricevuto dallo streamer \\\hline
 
 \end{longtable}
 \normalsize
@@ -59,7 +59,7 @@
 %TODO: partere non in grassetto da spostare in altra tabella %
 \subsection{Tavola delle operazioni}
 \small
-\begin{longtable}{|l|c|c|c|c|p{4.18cm}|}
+\begin{longtable}{|l|c|c|p{4.0cm}|c}
   \hline \textbf{Operazioni} & \textbf{Tipo} & \textbf{Frequenza} & \textbf{Motivazione} \\\hline
   \endfirsthead
 
@@ -82,7 +82,7 @@
   Calcolo Numero di Live effettuate & I & 1/giorno  & la piattaforma calcola il numero di live effettuate da uno streamer  \\\hline
   Calcolo Numero di Clip effettuate & I & 1/giorno  & la piattaforma calcola il video di live effettuate da uno streamer  \\\hline
   Calcolo Numero di Video effettuate & I & 1/giorno  & la piattaforma calcola il clip di live effettuate da uno streamer  \\\hline
-  Controllo condizioni affiliate & B &  & la piattaforma controlla se uno streamer rispetta le condizioni per diventare affiliate  \\\hline
+  Controllo condizioni affiliate & B &1/giorno & la piattaforma controlla se uno streamer rispetta le condizioni per diventare affiliate  \\\hline
   Controllo classifica streamer più seguiti & B & 1/settimana  & la piattaforma controlla se uno streamer rispetta le condizioni per diventare affiliate  \\\hline
 
   
