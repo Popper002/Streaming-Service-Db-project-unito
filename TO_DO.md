@@ -1,4 +1,5 @@
-
+[ ]     Cose da aggiungere sull'e-r gigante { attributi :Num_follower_canale,URL,password ;Relazioni : ; Entità: .}
+        Rivedere entità chat 
 
 [ ]   INSERIRE ULTERIORI BUSINESS RULES
 
