@@ -1,13 +1,10 @@
-[ ]     Cose da aggiungere sull'e-r gigante { attributi :Num_follower_canale,URL,password ;Relazioni : ; Entità: .}
-        Rivedere entità chat 
+[ ]   Cose da aggiungere sull'e-r gigante {}
 
 [ ]   INSERIRE ULTERIORI BUSINESS RULES
 
 [ ]   E-R RIDOTTO 
 
-[ ]   ANALISI DELLE RIDONDANZE
-
-[ ]   RIMUOVERE GENERALIZZAZIONI 
+[ ]   ANALISI DELLE RIDONDANZE 
 
 [ ]   Eventuale partizionamento/accorpamento di entità e associazioni (con motivazione
 delle scelte effettuate)
@@ -17,7 +14,7 @@ effettuate)
 
 [ ]  Schema relazionale (con indicazione dei vincoli di integrità referenziale).
 
-
+[ ] 
 * IMPLENTAZIONE
 
 [ ]  DDL di creazione del database.  
