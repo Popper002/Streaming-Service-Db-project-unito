@@ -3,7 +3,7 @@ CREATE  TABLE UTENTE
       nickname varchar(45) NOT NULL,--varchar : stringhe con lunghezza varibile ,l'argomento indica un max di lunghezza
       email varchar(45),
       password varchar(45) NOT NULL,
-      DataRegistrazione TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      DataRegistrazione TIMESTAMP(2) NOT NULL DEFAULT CURRENT_TIMESTAMP,
       PRIMARY KEY (email) 
 
 
