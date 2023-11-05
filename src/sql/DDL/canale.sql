@@ -1,4 +1,5 @@
-CREATE TABLE canale
+--@block initialize Canale  
+CREATE TABLE Canale
 (
     cannel_name varchar(45) NOT NULL,
     iscritti integer default 0,

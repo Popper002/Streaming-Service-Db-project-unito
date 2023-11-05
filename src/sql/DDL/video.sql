@@ -1,4 +1,5 @@
-CREATE TABLE video
+--@block initalize Video 
+CREATE TABLE Video
 (
     titolo varchar(90) default NOT NULL, 
     durata decimal (6,4)default 0, 

@@ -1,4 +1,5 @@
-CREATE  TABLE utente
+--@block initialize Utente
+CREATE  TABLE Utente
 (
       nickname varchar(45) NOT NULL,--varchar : stringhe con lunghezza varibile ,l'argomento indica un max di lunghezza
       email varchar(45) NOT NULL,

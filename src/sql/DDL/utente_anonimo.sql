@@ -1,4 +1,5 @@
-CREATE TABLE utente_anonimo
+--@block initlaize Utente_anonimo
+CREATE TABLE Utente_anonimo
 (
     ip_address char(32) NOT NULL, 
     CREATE DOMAIN check_ip as integer DEFAULT NOT NULL 

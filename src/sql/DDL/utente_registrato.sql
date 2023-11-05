@@ -1,3 +1,4 @@
+--@block intialize Utente_registrato
 CREATE TABLE UTENTE_REGISTRATO
 (
     nickname varchar (45) NOT NULL,

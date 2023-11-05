@@ -1,4 +1,5 @@
-CREATE TABLE descrizione (
+--@block initialize Descrizione
+CREATE TABLE Descrizione (
     social text default NULL,
     biografia text default NULL,
      constraint link_valid check (

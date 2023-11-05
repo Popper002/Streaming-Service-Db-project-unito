@@ -1,17 +1,20 @@
-CREATE TABLE chat
+--@block initialize Chat
+CREATE TABLE Chat
 (
         numbers_users INTEGER DEFAULT 0, 
         message_timestamp TIMESTAMP(2) NOT NULL , DEFAULT CURRENT_TIMESTAMP, 
       
 );
 
-CREATE TABLE chat_privata
+--@block initialize Chat_privata
+CREATE TABLE Chat_privata
 (
         nickname varchar(45) UNIQUE NOT NULL, 
 
 )INHERITS (chat);
 
-CREATE TABLE chat_pubblica
+--@block initialize Chat_pubblica
+CREATE TABLE Chat_pubblica
 (
         nickname varchar(45) UNIQUE NOT NULL, 
         numbs_users integer default 0, 

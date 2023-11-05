@@ -1,4 +1,5 @@
-CREATE TABLE streamer
+--@block initalize Streamer
+CREATE TABLE Streamer
 (
     nickname varchar (45) NOT NULL,
     email varchar(45) NOT NULL, 
