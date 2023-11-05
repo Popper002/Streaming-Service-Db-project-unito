@@ -1,9 +1,9 @@
 CREATE TABLE video
 (
     titolo varchar(90) default NOT NULL, 
-    durata decimal (6,4)default  NOT NULL, 
+    durata decimal (6,4)default 0, 
     categoria integer default  NULL,
-    num_spettatori_medio float default NULL,
+    num_spettatori_medio float default 0,
     tag varchar(20) default NULL,
     constraint check_tag check (
         tag*~'#[A-Za-z0-9]'
@@ -14,7 +14,6 @@ CREATE TABLE video
 + “[a-zA-Z0-9@:%.\+~#?&//=]{2,256}\.[a-z]” 
 + “{2,6}\b([-a-zA-Z0-9@:%.\+~#?&//=]*)'
     )
-    durata deciaml(6,4) default NOT NULL,
     --TODO : da rivedere
     Foreign Key (titolo) REFERENCES ()
 ); 

@@ -1,6 +1,6 @@
 CREATE TABLE chat
 (
-        numbers_users INTEGER DEFAULT NULL, 
+        numbers_users INTEGER DEFAULT 0, 
         message_timestamp TIMESTAMP(2) NOT NULL , DEFAULT CURRENT_TIMESTAMP, 
       
 );
@@ -14,7 +14,7 @@ CREATE TABLE chat_privata
 CREATE TABLE chat_pubblica
 (
         nickname varchar(45) UNIQUE NOT NULL, 
-        numbs_users integer default NULL, 
-        numbs_mess integer default NULL
+        numbs_users integer default 0, 
+        numbs_mess integer default 0
 
 )INHERITS (chat);
