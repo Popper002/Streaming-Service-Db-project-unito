@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-11-08T13:25:07.635Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.9.3 Safari/537.36" etag="p_0ZL3PS4DqDoydg0OS8" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-08T13:38:07.189Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.9.3 Safari/537.36" etag="uOkFIIevBmCDsgT4FtTM" version="22.0.3" type="device">
   <diagram name="Page-1" id="MS3F0-jO2fXdgPo8Lo6S">
     <mxGraphModel dx="1630" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -479,7 +479,7 @@
         <mxCell id="pSGRfioSJ6ThPUgg3c0M-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="850" y="515" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pSGRfioSJ6ThPUgg3c0M-22" value="N medio&lt;br&gt;spettatori" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="pSGRfioSJ6ThPUgg3c0M-22" value="Visualizzazioni" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="485" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pSGRfioSJ6ThPUgg3c0M-25" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -652,7 +652,7 @@
         <mxCell id="Q6tEKLhkLciVU8RTkUtG-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=default;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="850" y="641.5" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Q6tEKLhkLciVU8RTkUtG-28" value="N medio&lt;br&gt;spettatori" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Q6tEKLhkLciVU8RTkUtG-28" value="Visualizzazioni" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="611.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q6tEKLhkLciVU8RTkUtG-30" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
