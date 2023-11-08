@@ -27,3 +27,11 @@ nella fase di progettazione concettuale e di cui avreste dovuto rendervi conto p
 
 [ ] Qualche operazione di cancellazione e modifica per verificare i vincoli e gli effetti causati da
 operazioni su chiavi esterne.
+
+
+--- 
+cose da chiedere
+- chiave esterna in contenuti
+- ip (forse ha letto id)
+- cardinalità mancanti ma non mancati, il mistero si infittisce
+- come si identifica nelle relazione
