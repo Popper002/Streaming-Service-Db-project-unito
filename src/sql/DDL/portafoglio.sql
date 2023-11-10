@@ -1,8 +1,7 @@
---@block initialize Portafoglio
 CREATE TABLE Portafoglio
 (
-    nickname varchar(45) default NOT NULL,
+    nickname varchar(45),
     Foreign Key (nickname) REFERENCES utente_registrato(nickname),
-    saldo_bit float default 0,
+    saldo_bit float default 0
 
-)
+);

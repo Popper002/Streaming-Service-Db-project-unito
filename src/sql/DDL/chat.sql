@@ -1,15 +1,15 @@
---@block initialize Chat
+
 CREATE TABLE Chat
 (
         numbers_users INTEGER DEFAULT 0, 
-        message_timestamp TIMESTAMP(2) NOT NULL , DEFAULT CURRENT_TIMESTAMP, 
+        message_timestamp TIMESTAMP(2) NOT NULL DEFAULT CURRENT_TIMESTAMP
       
 );
 
 --@block initialize Chat_privata
 CREATE TABLE Chat_privata
 (
-        nickname varchar(45) UNIQUE NOT NULL, 
+        nickname varchar(45) UNIQUE NOT NULL
 
 )INHERITS (chat);
 
