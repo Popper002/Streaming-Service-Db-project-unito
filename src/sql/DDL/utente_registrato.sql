@@ -1,1 +1,0 @@
---@block intialize Utente_registrato
