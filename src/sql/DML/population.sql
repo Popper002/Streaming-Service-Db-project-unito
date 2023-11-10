@@ -1,24 +1,86 @@
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('riccardo','riccardo.oro@ilmiocloud.com','password','2023-01-01');
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'riccardo',
+  'riccardo.oro@edu.unito.it',
+  'password',
+  '2023-01-01'
+);
 
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('pippo','pippoinbicio@ilmiocloud.com','password1','2023-01-22');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('santiago','santiago@edu.unito.it','password2','2023-09-25');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('macco','macco.volare@gmail.com','password3','2023-03-14');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('giovanna','giovannaLabionda@parruchieria.org','password4','2023-05-06');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('francesco','francesco.mauro590@edu.unito.it','password5','2021-07-01');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('steve','steve_jobs@apple.com','password6','2022-4-22');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('silvio','silvio_underscore@alberobello.com','password78','2023-12-21');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('user21','user21@outlook.com','pas','2023-01-01');insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('','riccardo.oro@ilmiocloud.com','pord34','2025-02-11');D
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('piero','','password','2023-01-01');
-insert into utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('alfredo','pino_alfredo@wlavita.it','password','2023-01-01');
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES ('francesco',
+'francesco.mauro590@edu.unito.it',
+'password5',
+'2021-07-01'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'santiago',
+  'santiago@edu.unito.it',
+  'storia',
+  '2023-09-25'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'macco',
+  'macco.volare@gmail.com',
+  'password3',
+  '2023-03-14'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'giovanna',
+  'giovannaLabionda@parruchieria.org',
+  'password4',
+  '2023-05-06'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'sarah',
+  'sarah.connor@skynet.net',
+  't-800',
+  '2023-01-22'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'truceklan',
+  '',
+  'ministerodellinferno',
+  '2022-4-22'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'silvio',
+  'silvio_underscore@alberobello.com',
+  'password78',
+  '2023-12-21'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'bassi maestro',
+  'northofloreto@outlook.com',
+  'fotodigruppo',
+  '2023-01-01'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'piero',
+  '',
+  'password',
+  '2023-01-01'
+);
+
+INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
+VALUES (
+  'alfredo',
+  'pino_alfredo@wlavita.it',
+  'password',
+  '2023-01-01'
+);
