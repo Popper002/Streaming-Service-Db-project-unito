@@ -7,10 +7,11 @@ VALUES (
 );
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
-VALUES ('francesco',
-'francesco.mauro590@edu.unito.it',
-'password5',
-'2021-07-01'
+VALUES (
+  'francesco',
+  'francesco.mauro590@edu.unito.it',
+  'password5',
+  '2021-07-01'
 );
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione)
