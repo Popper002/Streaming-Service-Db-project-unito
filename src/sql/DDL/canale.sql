@@ -1,5 +1,4 @@
---@block initialize Canale  
-CREATE TABLE Canale
+CREATE TABLE IF NOT EXISTS Canale
 (
     channel_name character varying(45)  NOT NULL,
     iscritti integer DEFAULT 0,
