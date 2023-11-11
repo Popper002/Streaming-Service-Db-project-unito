@@ -67,6 +67,7 @@ VALUES (
   'silvio_underscore@alberobello.com',
   'password78',
   '2023-12-21',
+  '3472213882'
 );
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione,NumeroDiTelefono)
