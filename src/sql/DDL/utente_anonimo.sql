@@ -1,1 +1,0 @@
---@block initlaize Utente_anonimo

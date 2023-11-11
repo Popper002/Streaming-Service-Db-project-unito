@@ -5,4 +5,4 @@ CREATE TABLE IF NOT EXISTS Canale
     contenuti integer DEFAULT 0,
     social_media_list character varying(45),
     biografia character varying(280) 
-);
+)INHERITS(Utente_registrato);
