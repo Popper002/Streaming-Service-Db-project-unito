@@ -9,7 +9,7 @@ CREATE TABLE Video
     constraint check_tag check (
         tag*~'#[A-Za-z0-9]'
     )
-    url varchar(45) default NOT NULL,
+    url varchar(45),
     constraint check_url check (
         url *~ '((http|https)://)(www.)?” 
 + “[a-zA-Z0-9@:%.\+~#?&//=]{2,256}\.[a-z]” 
