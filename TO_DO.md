@@ -1,5 +1,5 @@
 [ ]   Cose da aggiungere sull'e-r gigante {mancano attributi su Utente , (ip_address , iscritti canale ,calendario ) } CONFRONTARSI CON I FILE .SQL 
-[ ] Referenziare (da capire cosa). 
+[ ]     Referenziare (da capire cosa). 
 
 [ ]   INSERIRE ULTERIORI BUSINESS RULES
 
