@@ -1,16 +1,10 @@
 --@block initialize Chat_privata
-CREATE TABLE IF NOT EXISTS Chat_privata
+CREATE TABLE IF NOT EXISTS chat
 (
-        nickname varchar(45) UNIQUE NOT NULL
-        sendAt TIMESTAMP DEFAULT NOT NULL
-
-);
-
---@block initialize Chat_pubblica
-CREATE TABLE IF NOT EXISTS Chat_pubblica
-(
-        nickname varchar(45) UNIQUE NOT NULL, 
-        numbs_users integer default 0, 
-        numbs_mess integer default 0
+        pubblica BOOLEAN DEFAULT FALSE,
+        messaggio integer DEFAULT NULL, 
+        nick_mandante VARCHAR(45) ,
+        nick_ricevente VARCHAR(45),
+        tempo TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 );

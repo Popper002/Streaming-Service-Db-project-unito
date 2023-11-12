@@ -2,6 +2,7 @@
 CREATE TABLE IF NOT EXISTS Utente_registrato
 (
     nickname varchar (45) NOT NULL,
+    streaner BOOLEAN DEFAULT FALSE,
     email varchar(45) NOT NULL, 
     DataRegistrazione TIMESTAMP(2) NOT NULL DEFAULT CURRENT_TIMESTAMP, 
     NumeroDiTelefono char (10),
