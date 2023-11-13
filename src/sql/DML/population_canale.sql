@@ -21,7 +21,7 @@ VALUES(
 );
 INSERT INTO canale ( nickname , iscirtti , sociale_media_list ,biografia)
 VALUES(
-    'Rick '
+    'Rick'
     0,
     'www.instgram/non_lo_so_rick',
      'Faccio qualche partita a qualcosa e parlo di cose '
@@ -32,6 +32,15 @@ VALUES(
     900,
     'www.instgram/fra01',
      '../'
+);
+
+
+INSERT INTO canale ( nickname , iscirtti , sociale_media_list ,biografia)
+VALUES(
+    'GiorgioneOrtoeCucina'
+    1.000.000,
+    'www.instgram/GiorgioneOrtoeCucina',
+     'Cucino prelibatezze laide e corrotte'
 );
 
 
