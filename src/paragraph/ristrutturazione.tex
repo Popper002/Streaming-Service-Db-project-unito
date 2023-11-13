@@ -1,7 +1,17 @@
 \section{Ristrutturazione schema E-R}
 \includegraphics[width=\textwidth]{resources/e_r-ridotto.pdf}
 
-\section{Analisi delle Generalizzazioni}
+\section{Analisi delle Ridondanze}
+Le ridondanze trovate sono le seguenti:
+\begin{enumerate}
+    \item La relazione \textit{visualizza} collegata all'entità \textit{utente anonimo} è ridondante in quanto l'informazione è ricavabile dall'entità \textit{Canale}
+    \item Il nome del canale è derivabile dal nickname dell'utente registrato
+    \item Gli attributi dell'entità \textit{Contenuti} sono ricavabili dall' entità \textit{Canale}
+    \item     
+\end{enumerate}
+
+
+\section{Eliminazioni delle Generalizzazioni}
 Le generalizzazioni presenti nello schema E-R sono:
 \begin{enumerate}
     \item \textbf{Utente}: È una generalizzazione totale tra le entità \textit{Utente registrato} e \textit{Utente anonimo}, poichè o si è registrati alla piattaforma o si è anonimi
