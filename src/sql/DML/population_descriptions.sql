@@ -2,7 +2,7 @@ INSERT INTO descrizione(nome,social,biografia)
 (
   'Riccardo Oro',
   'www.instagram.com/Riccardo_Oro',
-  'Live streaming su come risolvere segmentation fault'
+  'Live streaming su come risolvere segmentation fault' 
 );
 
 INSERT INTO descrizione(nome,social,biografia)
@@ -16,7 +16,7 @@ INSERT INTO descrizione(nome,social,biografia)
 (
   'Santi'
   'www.facebook.com/Santi',
-  'Ore e ore passate a parlare del passato (ovvero di storia)'
+  'Ore e ore passate a parlare del passato (ovvero di storia).'
 );
 
 INSERT INTO descrizione(nome,social,biografia)
@@ -33,3 +33,9 @@ INSERT INTO descrizione(nome,social,biografia)
   'C# come unica religione'
 )
 
+INSERT INTO descrizione (nome, social,biografia)
+(
+  'Alessandra'
+  'www.sociale.com/ale1312',
+  'Perchè comprare un carlino?'
+)
