@@ -12,9 +12,55 @@ Le ridondanze trovate sono le seguenti:
 \end{enumerate}
 \subsubsection{Ridondanza dei messaggi pubblici/privati}
 \begin{itemize}
-    \item Mandare un messaggio
+    \item È possibile analizzare che in presenza di ridondanza il quantitativo di memoria contenuto nell'entità chat di messaggi è nettamente superiore ,poichè l'attributo Chat
+          immagazina qualunque tipo di messaggi senza badare al fatto che sia publica o privata , il fatto che la chat sia pubblica o privata è influente per l'utente ,poichè esso avrà una quantità di utente con cui conversare 
+          diversa in base a dove esso si trovi.
+          Senza la ridondanza i messaggi vengono ri identificati e gestiti dalle singole chat in modo che ogni chat ha una sua gestione e quindi ha una quantità diversa di messaggi ,e quindi essi non vengono 
+          raggruppati in un unica sezione di memoria. 
+
 \end{itemize}
 
+Si ipotizzano 1.000.000.000 di messaggi scambiati, con la ridondanza un messaggio non viene distinto tra pubblico e privato, quindi viene contato doppio
+\subsubsection{Analisi con ridondanza}
+Tempo impiegato : 2.000.000.000\footnote{i messaggi sono il doppio di quelli effettivi in quanto non vengono distinti} messaggi *1 ms /messaggio *2 (operazioni di read and write) $\simeq 32$ minuti per salvare tutti i messaggi. \\
+Spazio:Si ipotizza 100 kb a messaggio. 
+\small
+\begin{longtable}{|l|c|c|p{6.2cm}|}
+  \hline \textbf{Concetto} & \textbf{Tipo} & \textbf{Accessi} & \textbf{Tipo} \\\hline
+  \endfirsthead
+
+  \hline \textbf{Concetto} & \textbf{Tipo} & \textbf{Accessi} & \textbf{Tipo} \\\hline
+  \endhead
+
+  \hline \multicolumn{4}{|r|}{\textit{Continua alla pagina successiva}}
+  \endfoot
+    Utente Registrato & R/W & Conversare & 1.000.000.000 \\\hline
+  \endlastfoot
+
+
+\end{longtable}
+\normalsize
+\newpage
+\subsubsection{Analisi senza ridondanza}
+Tempo impiegato : 1.000.000.000 messaggi *1 ms /messaggio *2 (operazioni di read and write) $\simeq 16$ minuti per salvare tutti \\
+Spazio:Si ipotizza 100 kb a messaggio. 
+\newline
+\small
+\begin{longtable}{ |l|c|c|p{6.2cm}|}
+  \hline \textbf{Concetto} & \textbf{Tipo} & \textbf{Accessi} & \textbf{Tipo} \\\hline
+  \endfirsthead
+
+  \hline \textbf{Concetto} & \textbf{Tipo} & \textbf{Accessi} & \textbf{Tipo} \\\hline
+  \endhead
+
+  \hline \multicolumn{4}{|r|}{\textit{Continua alla pagina successiva}}
+  \endfoot
+
+    Utente Registrato& R/W & Conversare & 2.000.000.000 \\\hline
+  \endlastfoot
+
+\end{longtable}
+\normalsize
 \section{Eliminazioni delle Generalizzazioni}
 Le generalizzazioni presenti nello schema E-R sono:
 \begin{enumerate}
