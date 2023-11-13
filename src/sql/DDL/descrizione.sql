@@ -1,5 +1,5 @@
 --@block initialize Descrizione
-CREATE TABLE Descrizione (
+CREATE TABLE IF NOT EXISTS Descrizione (
     nome varchar(20),
     social text default NULL,
     biografia text default NULL,
