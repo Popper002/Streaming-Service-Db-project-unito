@@ -1,10 +1,8 @@
---@block initialize Descrizione
 CREATE TABLE IF NOT EXISTS Descrizione (
     nome varchar(20),
     social text default NULL,
     biografia text default NULL,
-    FOREIGN KEY (nome) REFERENCES Canale(channel_name) ON DELETE CASCADE ON
-    PRIMARY KEY (nome)
+    FOREIGN KEY (nome) REFERENCES Canale(nickname) ON DELETE CASCADE ON
      constraint link_valid check (
         social ~ '((http|https)://)(www.)?” 
 + “[a-zA-Z0-9@:%.\+~#?&//=]{2,256}\.[a-z]” 
