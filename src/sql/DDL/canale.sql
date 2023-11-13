@@ -4,6 +4,8 @@ CREATE TABLE IF NOT EXISTS Canale
 	PRIMARY KEY (nickname),
     iscritti integer DEFAULT 0,
     social_media_list varchar(45),
+    FOREIGN KEY ( social_media_list)
+    REFERENCES descrizione(social), --Dato deribale da tabella descrione possibile ridontanda bhoooo ??!?!?!!
     biografia varchar(280)
 
 );
