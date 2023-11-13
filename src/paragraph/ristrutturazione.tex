@@ -13,9 +13,8 @@ Le ridondanze trovate sono le seguenti:
 \subsubsection{Ridondanza dei messaggi pubblici/privati}
 \begin{itemize}
     \item È possibile analizzare che in presenza di ridondanza il quantitativo di memoria contenuto nell'entità chat di messaggi è nettamente superiore ,poichè l'attributo Chat
-          immagazina qualunque tipo di messaggi senza badare al fatto che sia publica o privata , il fatto che la chat sia pubblica o privata è influente per l'utente ,poichè esso avrà una quantità di utente con cui conversare 
-          diversa in base a dove esso si trovi.
-          Senza la ridondanza i messaggi vengono ri identificati e gestiti dalle singole chat in modo che ogni chat ha una sua gestione e quindi ha una quantità diversa di messaggi ,e quindi essi non vengono 
+          immagazina qualunque tipo di messaggi senza badare al fatto che sia publica o privata , il fatto che la chat sia pubblica o privata è influente per il messaggio ,poichè rimane comunque un messaggio. 
+          Senza la ridondanza i messaggi vengono ri identificati e gestiti dalle singole chat in modo che ogni chat ha una sua gestione e quindi ha una quantità diversa di messaggi da elaborare,e quindi essi non vengono 
           raggruppati in un unica sezione di memoria. 
 
 \end{itemize}
@@ -42,8 +41,10 @@ Spazio:Si ipotizza 100 kb a messaggio.
 \normalsize
 \newpage
 \subsubsection{Analisi senza ridondanza}
-Tempo impiegato : 1.000.000.000 messaggi *1 ms /messaggio *2 (operazioni di read and write) $\simeq 16$ minuti per salvare tutti \\
-Spazio:Si ipotizza 100 kb a messaggio. 
+Tempo impiegato : 1.000.000.000 messaggi *0.5 ms /messaggio *2(operazioni di read and write) $\simeq 16$ minuti per salvare tutti \\
+Spazio:Si ipotizza 100 kb a messaggio.  
+%Inserire motivazioni di questa scelta + aggiunta accessi e entità ( messaggio privato || messaggio pubblico )
+%Abbiamo che aumentiamo di N gli accessi per messaggi privati e K accessi per messaggi pubblici 
 \newline
 \small
 \begin{longtable}{ |l|c|c|p{6.2cm}|}
