@@ -16,7 +16,7 @@ CREATE TABLE Video
 + “{2,6}\b([-a-zA-Z0-9@:%.\+~#?&//=]*)'
     )
     --TODO : da rivedere
-    Foreign Key (titolo) REFERENCES ()
+    -- Foreign Key (titolo) REFERENCES ()
 ); 
 CREATE TABLE clip
 (
