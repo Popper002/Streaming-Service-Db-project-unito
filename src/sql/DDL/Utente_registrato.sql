@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS Utente_registrato
 (
     nickname varchar (45),
     PRIMARY KEY (nickname),
-    streaner BOOLEAN DEFAULT FALSE,
+    streamer BOOLEAN DEFAULT FALSE,
     email varchar(45), 
     DataRegistrazione TIMESTAMP(2) NOT NULL DEFAULT CURRENT_TIMESTAMP, 
     NumeroDiTelefono char (10),

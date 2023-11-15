@@ -6,6 +6,6 @@ CREATE TABLE IF NOT EXISTS struttura
     tag VARCHAR(15),
     titolo varchar(45), 
    constraint check_tag check ( tag ~ '#[0-9 a-z A-Z]'),
-    duranta float ,  
+    durata float ,  
     PRIMARY KEY ( titolo, durata)
 ); 
