@@ -63,15 +63,15 @@ VALUES (
   'truceklan',
   '',
   'ministerodellinferno',
-  '2022-4-22',
+  '2022-13-12',
   NULL,
   true
 );
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione,NumeroDiTelefono,affiliate)
 VALUES (
-  'silvio',
-  'silvio_underscore@alberobello.com',
+  'TheRealMarzaa',
+  'therealmarzaa@gmail.com',
   'password78',
   '2023-12-21',
   '3472213882',
@@ -100,9 +100,9 @@ VALUES (
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione,NumeroDiTelefono,affiliate)
 VALUES (
-  'alfredo',
-  'pino_alfredo@wlavita.it',
-  'password',
+  'GiorgioneOrtoeCucina',
+  'giorgioneortoecucina@test.com',
+  'password1',
   '2023-01-01',
   NULL,
   false
