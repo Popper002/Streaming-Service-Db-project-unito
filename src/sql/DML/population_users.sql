@@ -30,11 +30,11 @@ VALUES (
 
 INSERT INTO utente_registrato(nickname,email,password,DataRegistrazione,NumeroDiTelefono,affiliate)
 VALUES (
-  'macco',
-  'macco.volare@gmail.com',
-  'password3',
-  '2023-03-14',
-  '3398987827',
+  'Tumblurr',
+  'Tumblurr@blur.com',
+  'lugozzi',
+  '21-12-2006',
+  '3911822225',
   true
 );
 

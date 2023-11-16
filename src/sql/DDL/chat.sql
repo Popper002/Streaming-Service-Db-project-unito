@@ -7,6 +7,6 @@ CREATE TABLE IF NOT EXISTS chat
         messaggio varchar(100) DEFAULT NULL, 
         nick_mandante VARCHAR(45) ,
         nick_ricevente VARCHAR(45),
-        tempo TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        tempo TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY ( id_messaggio)
 );
