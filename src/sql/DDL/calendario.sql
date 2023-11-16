@@ -4,3 +4,5 @@ CREATE TABLE IF NOT EXISTS calendario
     inizio TIMESTAMP,
     PRIMARY KEY(titolo_futuro,inizio)
 );
+
+

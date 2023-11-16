@@ -18,7 +18,6 @@ WHERE nickname IN (SELECT nickname FROM IsAffiliate);
 WITH Ranking as(
   select nickname, iscritti, RANK_NUMBER() OVER (ORDER BY iscritti DESC) AS rank_streamer --forse ;'
   from Canale
-
   GROUP BY iscritti where MAX(iscritti)  
 ) -- TODO: da riguardare non mi convince 
 
@@ -27,7 +26,4 @@ WITH Ranking as(
   
   --si può fare anche cosi usando l'identificativo per numeri \d
 
-  DELETE FROM calendario WHERE titolo_futuro ~'^\d.*$' --non voglio avere titoli solo con numeri 
-  --cosi evitiamo le seguenti casistiche . -inserimento numero di telefono in campo errato. -un ip_adress o altro nel campo.ADD
---documentation for regular expression postgresql https://www.sqlshack.com/working-with-regular-expressions-in-postgresql/
-  
+  --documentation for regular expression postgresql https://www.sqlshack.com/working-with-regular-expressions-in-postgresql/
