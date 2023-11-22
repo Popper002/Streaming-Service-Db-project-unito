@@ -12,11 +12,11 @@ CREATE TABLE Video
     url varchar(45),
     constraint check_url check (
         url *~ '((http|https)://)(www.)?” 
-+ “[a-zA-Z0-9@:%.\+~#?&//=]{2,256}\.[a-z]” 
-+ “{2,6}\b([-a-zA-Z0-9@:%.\+~#?&//=]*)'
+                + “[a-zA-Z0-9@:%.
+                \+~#?&//=]{2,256}\.[a-z]” 
+                + “{2,6}\b([-a-zA-Z0-9@:%.
+                \+~#?&//=]*)'
     )
-    --TODO : da rivedere
-    -- Foreign Key (titolo) REFERENCES ()
 ); 
 CREATE TABLE clip
 (
