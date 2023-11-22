@@ -10,9 +10,7 @@ WITH IsAffiliate AS (
     GROUP BY nickname
     HAVING SUM(minuti_trasmessi) >= 500 AND AVG(spettatori) >= 3 AND COUNT(follower) >= 50
 )
-UPDATE Utente_registrato
-SET affiliate = TRUE
-WHERE nickname IN (SELECT nickname FROM IsAffiliate);
+
 
 --@block Calcolo 1/settimana classifica streamer più seguiti
 WITH Ranking as(
