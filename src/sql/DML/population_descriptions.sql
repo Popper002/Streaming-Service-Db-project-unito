@@ -40,4 +40,3 @@ VALUES (
   'Perché comprare un carlino?'
 );
 
--- running this give this error: ERROR:  invalid regular expression: invalid repetition count(s) SQL state: 2201B

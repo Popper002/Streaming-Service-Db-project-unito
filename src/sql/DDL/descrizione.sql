@@ -12,5 +12,3 @@ CREATE TABLE IF NOT EXISTS Descrizione (
 
 );
 
-
--- TODO solve regex error 

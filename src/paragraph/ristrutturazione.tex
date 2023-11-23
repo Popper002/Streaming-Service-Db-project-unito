@@ -12,10 +12,11 @@ Le ridondanze trovate sono le seguenti:
 \end{enumerate}
 \subsubsection{Ridondanza dei messaggi pubblici/privati}
 \begin{itemize}
-    \item È possibile analizzare che in presenza di ridondanza il quantitativo di memoria contenuto nell'entità chat di messaggi è nettamente superiore ,poichè l'attributo Chat
-          immagazina qualunque tipo di messaggi senza badare al fatto che sia publica o privata , il fatto che la chat sia pubblica o privata è influente per il messaggio ,poichè rimane comunque un messaggio. 
-          Senza la ridondanza i messaggi vengono ri identificati e gestiti dalle singole chat in modo che ogni chat ha una sua gestione e quindi ha una quantità diversa di messaggi da elaborare,e quindi essi non vengono 
-          raggruppati in un unica sezione di memoria. 
+    \item La presenza di ridondanza nella gestione dei messaggi in chat comporta un aumento significativo
+     della quantità di memoria. L'attributo "Chat" memorizza messaggi indipendentemente dalla loro natura
+      pubblica o privata, poiché la distinzione tra i due è rilevante solo per il tipo di messaggio. 
+      Senza ridondanza, i messaggi sono gestiti separatamente in chat individuali, ciascuna con una propria 
+      quantità di messaggi da elaborare, evitando un raggruppamento in una sezione comune di memoria. 
 
 \end{itemize}
 

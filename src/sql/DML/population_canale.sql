@@ -44,6 +44,3 @@ VALUES(
     'www.instgram/GiorgioneOrtoeCucina',
      'Cucino prelibatezze'
 );
-
-
---DA TESTARE DOPO MODIFICA TABELLA CANALE  
