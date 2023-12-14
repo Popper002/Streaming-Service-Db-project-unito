@@ -1,5 +1,23 @@
-\section{Revisione dei requisiti}
+\section{Requisiti rivisti}
+Si vuole realizzare una base di dati per un servizio che permette di fare live streaming su vari
+argomenti1. Il live streaming (o, più sinteticamente, la live) permette di interagire con il pubblico in
+tempo reale grazie a feed video, chat e altro. \newline
+Ogni utente può essere spettatore o streamer o entrambi. Gli spettatori possono essere registrati al servizio oppure guardare le live in modo anonimo. \newline
+Per registrarsi gli utenti devono indicare nome utente, password, data di nascita, numero di telefono o indirizzo mail. \newline
+Gli utenti registrati possono chattare, segure lo streamer, creare dirette , ed hanno accesso ad un portfoglio di bit (moneta virtuale) acquistabile in piattaforma . \newline
+Ogni streamer ha un canale, che può essre caratterizzato tramite una descrizione. Per ogni canale è possibile modificare una lista di social associati,un'immaagine del profilo e anche un trailer. \newline
+In ogni canale possono esserci live, video (live passate) e clip (video di breve durata). Le live possono anche non diventare video del canale. Ognuno ha un titolo, una durata, appartiente a una categoria e può essere associato per diversi tag. \newline
+Per ogni live viene memorizzato il nunero medio di spettatori mentre per i video e le clip il numero di visualizzazioni. \newline
+Se uno streamer rispetta determinati parametri di performance (un minimo di 500 minuti trasmessi, una media di tre o più spettatori simultanei,alemno 50 follower) può diventare affiliate. \newline
+I viewer possono supportare gli streamer tramite le subscription al loro canale, ottenenendo dei privilegi. \newline
 
+La base di dati deve supportare le seguenti operazioni:
+\begin{itemize}
+  \item  Una volta al giorno si controllano le condizioni per la qualifica di affiliate.
+  \item  Una volta a settimana viene calcolata la classifica degli streamer più seguiti.
+\end{itemize}
+
+\section{Requisiti rivisiti in gruppi di frasi omogenee}
 \subsection{Fase relativa agli utenti}
 \begin{itemize}
   \item Gli utenti si dividono in registrati o anonimi
