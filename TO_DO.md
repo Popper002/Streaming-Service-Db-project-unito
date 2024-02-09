@@ -35,3 +35,11 @@ cose da chiedere
 - ip (forse ha letto id)
 - cardinalità mancanti ma non mancati, il mistero si infittisce
 - come si identifica nelle relazione
+
+
+
+## CRITICITÀ 
+- Trailer e altri attributi mancano all'entità canale 
+- Chat potrebbe essere collegata a live invece che a Streamer-Spettatore 
+- Lo schema E-R ora come ora non permette di accedere ai canali e ai suoi contenuti agli utenti anonimi 
+- 
